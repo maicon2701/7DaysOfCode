@@ -47,14 +47,14 @@
     color: var(--cor-menu);
 }
 
-.container__link{
+.botão__link{
     margin-right: 1em;
     padding: 1em 1.5em;
     color: var(--cor-menu);
     text-decoration: none;
 }
 
-.cadastrar{
+.cadastro{
     color: var(--cor-de-fundo);
     background-color: var(--cor-primaria);
     border-radius: 8px;
