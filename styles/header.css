@@ -13,13 +13,20 @@
     align-items: center;
 }
 
+.container{
+   display: flex; 
+    justify-content: space-between;
+    padding: 1.5em 6em;
+    align-items: center;
+}
+
 .container__imagem{
     padding: 0.5em;
 }
 
 .container__titulo{
     color: var(--cor-titulo);
-    font-size: 18px;
+    font-size: 1.1rem;
     
 }
 
