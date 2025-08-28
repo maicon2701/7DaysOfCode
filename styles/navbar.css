@@ -1,0 +1,43 @@
+.navegação {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0;
+    
+}
+
+.navegação__imagem{
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.navegação-lista {
+    display: flex;
+    margin-right: 13rem;
+
+}
+
+
+
+.navegação-item__link {
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    margin-right: 2em;
+    font-weight: 500;
+    
+}
+
+.botão__link {
+    padding: 1rem 1.5rem;
+    color: var(--cor-secundaria);
+    text-decoration: none;
+}
+
+.cadastro {
+    color: var(--cor-de-fundo);
+    background-color: var(--cor-primaria);
+    border-radius: 8px;
+}

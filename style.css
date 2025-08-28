@@ -1,3 +1,4 @@
+@import url("styles/navbar.css");
 @import url("styles/header.css");
 
 
@@ -5,9 +6,9 @@
 :root{
     --cor-de-fundo: white;
     --fonte-principal: "Inter", sans-serif;
-    --cor-titulo: #3A404E;
-    --cor-menu: #667085;
+    --cor-secundaria: #a5acbd;
     --cor-primaria: #8E2424;
+    --fonte-peso: 600;
 }
 
 body{
