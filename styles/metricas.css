@@ -1,0 +1,15 @@
+.container__metricas{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 96px;
+}
+
+.metricas{
+    font-size: 3.75rem;
+    color: var(--cor-primaria);
+    font-weight: 600;
+}
+
+.metricas__span{
+    font-size: 1.12rem;
+}

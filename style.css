@@ -1,12 +1,13 @@
 @import url("styles/navbar.css");
 @import url("styles/header.css");
+@import url("styles/metricas.css");
 
 
 
 :root{
     --cor-de-fundo: white;
     --fonte-principal: "Inter", sans-serif;
-    --cor-secundaria: #a5acbd;
+    --cor-secundaria: #a1a8b9;
     --cor-primaria: #8E2424;
     --fonte-peso: 600;
 }

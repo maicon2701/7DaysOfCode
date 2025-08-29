@@ -7,7 +7,7 @@
 
 
 
-span{
+.cabeçalho__span{
     color: var(--cor-primaria);
     margin-top: 5.2em;
     font-weight: var(--fonte-peso);
