@@ -1,15 +1,28 @@
-.container__metricas{
+.metricas{
     display: flex;
     justify-content: space-around;
-    margin-top: 96px;
+    margin: 6em auto; 
+    width: 70%;
+}
+.container__metricas{
+    width: 20%;
 }
 
-.metricas{
+.metricas__titulo{
     font-size: 3.75rem;
     color: var(--cor-primaria);
-    font-weight: 600;
+    font-weight: var(--fonte-peso-titulo);
+    
 }
 
-.metricas__span{
+.metricas__subtitulo{
     font-size: 1.12rem;
+    padding: 1em 0;
+    color: var(-cor-titulo);
+}
+
+.metricas__texto{
+    line-height: 1.4rem;
+    color: var(--cor-secundaria);
+    font-weight: var(--fonte-peso-texto);
 }

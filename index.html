@@ -16,11 +16,11 @@
 
 <body>
     <!--Menu de navegação -->
-    
+
     <nav class="navegação">
         <img src="src/logo.svg" alt="imagem do globo terreste" class="navegação__imagem">
-        <div class="container">
-            
+        <div class="container__navegação">
+
             <ul class="navegação-lista">
                 <li class="navegação-item">
                     <a href="#" class="navegação-item__link">Home</a>
@@ -36,10 +36,11 @@
 
                 </li>
             </ul>
+
         </div>
 
         <!--Login/Cadastro  -->
-        <div class="container botão">
+        <div class="container__navegação botão">
             <a href="#" class="botão__link">Entrar</a>
             <a href="#" class="botão__link cadastro">Cadastrar</a>
         </div>
@@ -47,29 +48,99 @@
     <!--Cabeçalho -->
     <header class="cabeçalho">
         <span class="cabeçalho__span">Sobre nós</span>
-        <h1 class="cabeçalho__titulo">Por que somos diferentes?</h1>
-        <p class="cabeçalho__texto"> Nós focamos nos detalhes de tudo que fazemos. Tudo para ajudar as empresas de
-            <br>todo o mundo a se concentrarem naquilo que é realmente importante para elas.</p>
+        <h2 class="cabeçalho__titulo">Por que somos diferentes?</h2>
+        <p class="cabeçalho__texto"> Nós focamos nos detalhes de tudo que fazemos. Tudo para ajudar as empresas de<br>
+            todo o mundo a se concentrarem naquilo que é realmente importante para elas.</p>
     </header>
-    <section class="container__metricas">
-        <div class="metricas__itens">
-            <h2 class="metricas">400+</h2>
-            <span class="metricas__span">Projetos concluídos</span>
+    <!-- Seção de métricas -->
+    <section class="metricas">
+        <div class="container__metricas">
+            <h2 class="metricas__titulo">400+</h2>
+            <h3 class="metricas__subtitulo">Projetos concluídos</h3>
+            <p class="metricas__texto">Nós ajudamos construir mais de 400 projetos incríveis.</p>
         </div>
-        <div class="metricas__itens">
-            <h2 class="metricas">100+</h2>
-            <span class="metricas__span">Colaboradores</span>
+        <div class="container__metricas">
+            <h2 class="metricas__titulo">100+</h2>
+            <h3 class="metricas__subtitulo">Colaboradores</h3>
+            <p class="metricas__texto">Temos mais de 100 colaboradores no nosso time que se preocupam com nossos
+                clientes.</p>
         </div>
-        <div class="metricas__itens">
-            <h2 class="metricas">20k</h2>
-            <span class="metricas__span">Downloads</span>
+        <div class="container__metricas">
+            <h2 class="metricas__titulo">20k</h2>
+            <h3 class="metricas__subtitulo">Downloads</h3>
+            <p class="metricas__texto">Nossos projetos que estão disponíveis em lojas já foram baixados mais de 20.000
+                vezes.</p>
         </div>
-        <div class="metricas__itens">
-            <h2 class="metricas">500+</h2>
-            <span class="metricas__span">Reviews 5 estrelas</span>
+        <div class="container__metricas">
+            <h2 class="metricas__titulo">500+</h2>
+            <h3 class="metricas__subtitulo">Reviews 5 estrelas</h3>
+            <p class="metricas__texto">Estamos orgulhosos de contar com mais de 500 reviews 5 estrelas em nossos
+                produtos.</p>
+        </div>
+    </section>
+    <!-- Seção de procura de talentos -->
+    <section class="talentos">
+        <div class="container__talentos">
+            <h3 class="talentos__subtitulo">Vagas abertas!</h3>
+            <h2 class="talentos__titulo">Estamos procurando por talentos</h2>
+            <p class="talentos__texto">Somos uma equipe 100% remota com pessoas do Brasil inteiro.</p>
+        </div>
+        <img src="src/reuniao-mesa.svg" alt="imagem de pessoas reunidas em uma mesa" class="talentos__imagem">
+
+    </section>
+    <section class="vagas">
+        <h2 class="vagas__titulo">Design</h2>
+        <div class="vaga">
+
+            <span class="vaga__titulo">Product Designer</span>
+            <div class="informações">
+                <span>Full-time</span>
+                <span>Faixa salarial: R$7.000</span>
+            </div>
+        </div>
+        <div class="vaga">
+
+            <span class="vaga__titulo">Product Designer</span>
+            <div class="informações">
+                <span>Full-time</span>
+                <span>Faixa salarial: R$6.000</span>
+            </div>
         </div>
 
+        <h2 class="vagas__titulo">Desenvolvimento de Software</h2>
+         <div class="vaga">
 
+            <span class="vaga__titulo">Product Desenvolvedor(a) iOS</span>
+            <div class="informações">
+                <span>Full-time</span>
+                <span>Faixa salarial: R$8.000</span>
+            </div>
+         </div>
+         <div class="vaga">
+            <span class="vaga__titulo">Desenvolvedor(a) Front-end</span>
+            <div class="informações">
+                <span>Full-time</span>
+                <span>Faixa salarial: R$7.000</span>
+            </div>
+
+         </div>
+         <div class="vaga">
+            <span class="vaga__titulo">Desenvolvedor(a) Back-end</span>
+            <div class="informações">
+                <span>Full-time</span>
+                <span>Faixa salarial: R$8.000</span>
+            </div>
+
+         </div>
+    </section>
+    <!-- seção de depoimento -->
+    <section class="depoimento">
+        <div class="container__depoimento"></div>
+            <h2 class="depoimento__titulo">Veja o que nossos colaboradores falam sobre nós</h2>
+            <p class="depoimento__texto">OptimusTech se importa com a saúde dos seus colaboradores e <br> sempre procura nos dar todo tipo de auxílio possível.</p>
+            <img src="src/Avatar.svg" alt="Avatar" class="depoimento__imagem">
+            <p class="depoimento__texto nome">Julia Castro</p>
+            <p class="depoimento__texto profissao">Desenvolvedora Web</p>
     </section>
 
 

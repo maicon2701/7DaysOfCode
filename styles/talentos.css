@@ -1,0 +1,38 @@
+.talentos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 13%;
+}
+
+.container__talentos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.talentos__subtitulo{
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding:0.4rem 0.6rem;
+    color: var(--cor-primaria);
+    background-color: rgba(142, 36, 36, 3%);
+    border: 1px solid  rgba(142, 36, 36, 3%); 
+    border-radius: 11px;
+}
+.talentos__titulo{
+    font-size: 2.2rem;
+    font-weight: var(--fonte-peso-titulo) ;
+    margin: 1rem 0 1.2rem 0;
+    color: var(-cor-titulo);;
+}
+
+.talentos__texto{
+    font-size: 1.2rem;
+    color: var(--cor-secundaria);
+    margin-bottom: 4rem;
+}
+
+.talentos__imagem{
+    width: 70%;
+}

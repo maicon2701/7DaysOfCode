@@ -1,15 +1,20 @@
 @import url("styles/navbar.css");
 @import url("styles/header.css");
 @import url("styles/metricas.css");
+@import url("styles/talentos.css");
+@import url("styles/vagas.css");
+@import url("styles/depoimento.css");
 
 
 
 :root{
     --cor-de-fundo: white;
     --fonte-principal: "Inter", sans-serif;
-    --cor-secundaria: #a1a8b9;
+    --cor-secundaria: #667085;
     --cor-primaria: #8E2424;
-    --fonte-peso: 600;
+    --cor-titulo: #101828;
+    --fonte-peso-titulo: 600;
+    --fonte-peso-texto: 400;
 }
 
 body{

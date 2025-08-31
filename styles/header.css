@@ -3,20 +3,21 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin-top: 5.2em;
 }
 
 
 
 .cabeçalho__span{
     color: var(--cor-primaria);
-    margin-top: 5.2em;
     font-weight: var(--fonte-peso);
 }
 
 .cabeçalho__titulo{
     font-size: 3rem;
-    font-weight: var(--fonte-peso);
-    padding: 0.9em;
+    font-weight: var(--fonte-peso-titulo);
+    padding: 0.8em;
+    color: var(-cor-titulo);
 }
 
 
@@ -24,4 +25,6 @@
     font-size: 1.3rem;
     color: var(--cor-secundaria);
     line-height: 2rem;
+    font-weight: var(--fonte-peso-texto);
 }
+
