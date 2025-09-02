@@ -1,0 +1,67 @@
+.rodapé{
+    display: flex;
+    justify-content: center;
+    background-color: #F9FAFB;
+    height: 26em;
+}
+
+.container__rodapé{
+    margin-top: 6rem;
+    text-align: center;
+}
+
+
+.rodapé__titulo{
+    font-size: 2.2em;
+    color: var(--cor-titulo);
+    font-weight: var(--fonte-peso-titulo);
+    padding: 1.2rem 0;
+}
+
+.rodapé__texto{
+    font-size: 1.2rem;
+    font-weight: var(--fonte-peso-texto);
+    color: var(--cor-secundaria);
+}
+.rodapé__formulario{
+    padding: 2.2rem 0;
+    display: flex;
+    gap: 1rem;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+
+.rodapé__email{
+    width: 22rem;
+    height: 2.5rem;
+    border-radius: 8px;
+    border: 1px  solid var(--cor-borda-email);
+    padding-left: 1rem;
+    outline: none;
+}
+
+.rodapé__email:focus{
+    width: 22.2rem;
+    height: 2.7rem
+}
+
+
+.rodapé__email::placeholder{
+    
+}
+
+
+.rodapé__botão{
+    width: 6rem;
+    border-radius: 8px;
+    border: 1px solid var(--cor-primaria);
+    background-color: var(--cor-primaria);
+    color: var(--cor-de-fundo);
+}
+
+.rodapé__direitos{
+    color: var(--cor-secundaria);
+    font-weight: var(--fonte-peso-texto);
+}

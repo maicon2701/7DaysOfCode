@@ -4,7 +4,7 @@
 @import url("styles/talentos.css");
 @import url("styles/vagas.css");
 @import url("styles/depoimento.css");
-
+@import url("styles/rodape.css");
 
 
 :root{
@@ -15,6 +15,7 @@
     --cor-titulo: #101828;
     --fonte-peso-titulo: 600;
     --fonte-peso-texto: 400;
+    --cor-borda-email: #D0D5DD;
 }
 
 body{
